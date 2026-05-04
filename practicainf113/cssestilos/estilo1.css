@@ -1,0 +1,287 @@
+body{
+    background-color:black;
+}
+.padre{
+    background-color: blueviolet;
+}
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: initial;
+    color: white;
+    text-shadow: 5px 5px #3A7BFF,15px 15px #7b3fff;
+    text-decoration: darkcyan;
+    padding: 10px;
+    background-color: blueviolet;
+    text-align: center;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+.caja{
+    height: 30px;
+    border: 2px;
+    border-style: outset;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    background-color: grey;
+    width: 100px;
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+}
+section{
+    color: white;
+    text-decoration: underline;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+.hola1{
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 10px 10px brown;
+}
+.lista1{
+    color: white;
+    text-decoration: underline;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.personajes2{
+    color: white;
+}
+.mizi1{
+    height: 100px;
+    width: 150px;
+    border-style: double;
+    box-shadow: 10px 10px pink;
+}
+.info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.texto{
+    max-width: 500px;
+    color: white;
+}
+.lista2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.sua1{
+    height: 100px;
+    width: 150px;
+    border-style: double;
+    box-shadow: 10px 10px white;
+}
+.ivan1{
+    height: 100px;
+    width: 150px;
+    border-style: double;
+    box-shadow: 10px 10px white
+}
+.till1{
+    height: 100px;
+    width: 150px;
+    border-style: double;
+    box-shadow: 10px 10px green
+}
+.luka1{
+    height: 100px;
+    width: 150px;
+    border-style: double;
+    box-shadow: 10px 10px yellow;
+}
+.hyuna1{
+    height: 100px;
+    width: 150px;
+    border-style: double;
+    box-shadow: 10px 10px orange;
+}
+.cuadro1{
+    background-color: black;
+    width: 1000px;
+    border-radius: 15px;
+    padding: 15px;
+    min-height: 100vh;
+}
+.historia1{
+    background-color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.contenido1{
+    display: grid;
+    grid-template-columns:  2fr 1fr 1fr ;
+    gap: 10px;
+    align-items: center;
+}
+.contenido2, img{
+    display: flex;
+    gap: 15px;
+    width: 100px;
+    height: 200px;
+}
+.textos2{
+    color: white;
+}
+.historia2{
+    background-color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.contenido4, img{
+    display: flex;
+    gap: 15px;
+    width: 90px;
+    height: 150px;
+}
+.textos3{
+    color: white;
+}
+.contenido3{
+    display: grid;
+    grid-template-columns:  2fr 1fr 1fr ;
+    gap: 10px;
+    align-items: center;
+}
+.historia3{
+    background-color: white;
+    text-align: center;
+    margin-bottom: 15px;;
+}
+.textos4{
+    color: white;
+}
+.contenido5{
+    display: grid;
+    grid-template-columns:  2fr 1fr 1fr ;
+    gap: 10px;
+    align-items: center;
+}
+.contenido6{
+    display: flex;
+    gap: 15px;
+    width: 90px;
+    height: 150px;
+}
+.songs{
+    background: white;
+    border-radius: 30px;
+    border-style: solid;
+    padding: 5px;
+    border-top: 5px solid yellow;
+    border-bottom: 5px solid yellow;
+    margin: 5px;
+    width: 250px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.canciones{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.song1{
+    text-align: center;
+}
+.song1 img{
+    border-radius: 10px;
+    cursor: pointer;
+    width: 150px;
+    box-shadow: 10px 19px red;
+}
+.contenido2 img{
+    border-radius: 50px;
+    box-shadow: 10px 10px #3A7BFF;
+    padding: 30px;
+    border-style: groove;
+    text-align: center;
+}
+.contenido4 img{
+    border-radius: 50px;
+    box-shadow: 10px 10px yellow;
+    padding: 30px;
+    border-style: groove;
+    text-align: center;
+}
+.contenido6 img{
+    border-radius: 50px;
+    box-shadow: 10px 10px red;
+    padding: 30px;
+    border-style: groove;
+    text-align: center;
+}
+.todos2 img{
+    border-radius: 50px;
+    box-shadow: 10px 10px #3A7BFF;
+    padding: 30px;
+    border-style: groove;
+    text-align: center;
+    width: 800px;
+}
+.songs{
+    text-align: center;
+    box-shadow: 10px 10px gray;
+}
+.galeria td{
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+.cabeza{
+    background-color: grey;
+}
+.galeria img{
+    width: 100px;
+    height: 100px;
+    object-fit: covers;
+}
+.hijo{
+    background-color: white;
+    padding: 50px;
+    border: 50px;
+}
+input{
+    background-color: white; 
+    width: 200px;
+    border-radius: 100px;
+}
+label{
+    background-color: black;
+}
+td{
+    color: black;
+    width: 300px;
+    margin: 100px;
+    border-radius: 10px;
+}
+.forma{
+    background-color: grey;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    border-radius: 80px;
+}
+.que{
+    background-color: white;
+    border-radius: 80px;
+}
+.ale{
+    background-color: white;
+}
+.presen{
+    background-color: grey;
+    color: black;
+    font-family: cursive;
+}
+.presen2{
+    background-color: #7b3fff;
+}
